@@ -1,0 +1,20 @@
+name: "generate-breakout-game-from-github-contribution-graph"
+description: "Generate a Breakout game svg from github contribution graph"
+author: "cyprieng"
+
+branding:
+  icon: "image"
+  color: "green"
+
+inputs:
+  github_username:
+    description: "Github username"
+    required: true
+  github_token:
+    description: "Github token used to fetch the contributions. Default to the action token if empty."
+    required: false
+    default: ${{ github.token }}
+
+runs:
+  using: node20
+  main: dist/cli.js
