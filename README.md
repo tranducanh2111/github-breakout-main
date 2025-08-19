@@ -7,13 +7,13 @@ This project will grab your contribution graph through the GitHub API and genera
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="example/dark.svg"
+    srcset="images/breakout-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="example/light.svg"
+    srcset="images/breakout-light.svg"
   />
-  <img alt="Breakout Game" src="example/light.svg" />
+  <img alt="Breakout Game" src="images/breakout-light.svg" />
 </picture>
 
 ## Usage
